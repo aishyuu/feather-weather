@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/feather-weather/static/css/main.d1b9625e.css",
+    "main.js": "/feather-weather/static/js/main.43f1f0ce.js",
+    "static/media/logo.png": "/feather-weather/static/media/logo.fba473a7a6930187155f.png",
+    "index.html": "/feather-weather/index.html",
+    "main.d1b9625e.css.map": "/feather-weather/static/css/main.d1b9625e.css.map",
+    "main.43f1f0ce.js.map": "/feather-weather/static/js/main.43f1f0ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1b9625e.css",
+    "static/js/main.43f1f0ce.js"
+  ]
+}
