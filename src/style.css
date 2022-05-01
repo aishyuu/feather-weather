@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orelega+One&family=Oswald:wght@500&family=Quicksand:wght@300&family=Roboto&display=swap');
+
+body {
+    background-color: #9999FF;
+}
+
+.header {
+    background-color: #6B7DB3;
+    display: flex;
+    font-family: "Orelega One", sans-serif
+}
+
+.logo--image {
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    order: 0;
+}
+
+.featherweather--lettering {
+    padding-top: 10px;
+    order: 1;
+}
+
+.header--buttons {
+    order: 2;
+    margin-left: auto;
+    display: flex;
+}
+
+.logo--box {
+    padding-top: 17px;
+    padding-bottom:-3px;
+}
+
+.portal {
+    margin: 30px 10px;
+    border: 1px;
+    width: 30px;
+    height: 32px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.blog--portal {
+    background-color: rgb(255, 194, 81);
+}
+
+.blog--portal :hover {
+    background-color:rgb(216, 164, 67);
+    border-radius: 5px;
+
+}
+
+.github--portal {
+    background-color: gray;
+}
+
+.github--portal :hover {
+    background-color: rgb(107, 107, 107);
+    border-radius: 5px;
+}
+
+.darkmode {
+    height:32px;
+    width:30px;
+    padding:0;
+    background-color:#7A4EAE;
+}
+
+.darkmode :hover {
+    background-color: #9760d7;
+    border-radius: 5px;
+    height: 32px;
+}
+
+.lightmode {
+    height: 32px;
+    width:30px;
+    padding: 0;
+    background-color: yellow;
+}
+
+.lightmode :hover {
+    background-color: rgb(198, 198, 0);
+    height: 32px;
+    border-radius: 5px;
+}
+
+.dark--header{
+    background-color: #183060;
+    display: flex;
+    font-family: "Orelega One", sans-serif;
+    color: white;
+}
