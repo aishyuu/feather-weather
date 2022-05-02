@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/feather-weather/static/css/main.486c5025.css",
-    "main.js": "/feather-weather/static/js/main.5d1d2b26.js",
+    "main.css": "/feather-weather/static/css/main.f0387ae2.css",
+    "main.js": "/feather-weather/static/js/main.c10aafc5.js",
     "static/media/image2.png": "/feather-weather/static/media/image2.67259f4e8f5223f4b9cd.png",
     "static/media/logo.png": "/feather-weather/static/media/logo.fba473a7a6930187155f.png",
     "static/media/image1.png": "/feather-weather/static/media/image1.8c3629dde53f2a5fc178.png",
     "static/media/image3.png": "/feather-weather/static/media/image3.6f70dfa0d3ecdca2dba7.png",
     "index.html": "/feather-weather/index.html",
-    "main.486c5025.css.map": "/feather-weather/static/css/main.486c5025.css.map",
-    "main.5d1d2b26.js.map": "/feather-weather/static/js/main.5d1d2b26.js.map"
+    "main.f0387ae2.css.map": "/feather-weather/static/css/main.f0387ae2.css.map",
+    "main.c10aafc5.js.map": "/feather-weather/static/js/main.c10aafc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.486c5025.css",
-    "static/js/main.5d1d2b26.js"
+    "static/css/main.f0387ae2.css",
+    "static/js/main.c10aafc5.js"
   ]
 }
