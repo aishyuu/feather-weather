@@ -103,3 +103,13 @@ body {
     margin-right: auto;
     padding: 20px;
 }
+
+.try--button {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.try--now--button {
+    width:100%;
+}
