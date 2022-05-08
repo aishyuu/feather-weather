@@ -44,7 +44,7 @@ export default function Forecast({darkMode, weatherData}) {
                 <div className={darkMode === true ? "card-body main--weather dark--weather" : "card-body main--weather"}>
                     <h2>As of: {unixToCurrentTime(weatherData["current"].dt)}</h2>
                     <h1>{translateWeather(weatherData["current"]["temp"])} &#8457;</h1>
-                    <img src={`http://openweathermap.org/img/wn/${weatherData["current"]["weather"][0]["icon"]}@4x.png`} alt="Weather icon"/>
+                    <img src={`https://openweathermap.org/img/wn/${weatherData["current"]["weather"][0]["icon"]}@4x.png`} alt="Weather icon"/>
                 </div>
             </div>
             <div className="container-fluid py-2 weather--box">
@@ -54,7 +54,7 @@ export default function Forecast({darkMode, weatherData}) {
                             <div className={darkMode === true ? "card card-body dark--weather": "card card-body"}>
                                 <h3>{unixToPST(hour["dt"])}</h3>
                                 <h3>{translateWeather(hour["temp"])} &#8457;</h3>
-                                <img src={`http://openweathermap.org/img/wn/${hour["weather"][0]["icon"]}@4x.png`} alt="weather icon"/>
+                                <img src={`https://openweathermap.org/img/wn/${hour["weather"][0]["icon"]}@4x.png`} alt="weather icon"/>
                                 <h3>{unixToDate(hour["dt"])}</h3>
                                 <h3>{unixToDayName(hour["dt"])}</h3>
                             </div>
@@ -68,7 +68,7 @@ export default function Forecast({darkMode, weatherData}) {
                         <div className={darkMode === true ? "card daily--weather forecast--complete dark--weather" : "card forecast--complete daily--weather"}>
                             <div className="daily--weather--formatting">
                                 <h2 className="daily--day">{unixToDate(day["dt"])}</h2>
-                                <img className="weather--image" src={`http://openweathermap.org/img/wn/${day["weather"][0]["icon"]}@4x.png`} alt="weather icon"/>
+                                <img className="weather--image" src={`https://openweathermap.org/img/wn/${day["weather"][0]["icon"]}@4x.png`} alt="weather icon"/>
                                 <h2 className="temperature--daily">{translateWeather(day["temp"]["day"])} &#8457;</h2>
                             </div>
                         </div>

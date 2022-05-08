@@ -40,7 +40,7 @@ export default function Weather({darkMode}) {
 
     function getOpenWeatherGeo(obj) {
         if (obj["State"] === "") {
-            Axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${obj["City"]},${obj["Country"]}&appid=${process.env.REACT_APP_OPEN_WEATHER_KEY}`).then(
+            Axios.get(`https://api.openweathermap.org/geo/1.0/direct?q=${obj["City"]},${obj["Country"]}&appid=${process.env.REACT_APP_OPEN_WEATHER_KEY}`).then(
                 (response) => {
                     return Axios.get(`https://api.openweathermap.org/data/2.5/onecall?lat=${response["data"][0]["lat"]}&lon=${response["data"][0]["lon"]}&appid=${process.env.REACT_APP_OPEN_WEATHER_KEY}`).then(
                         (response) => {
@@ -50,7 +50,7 @@ export default function Weather({darkMode}) {
                 }
             )
         } else {
-            Axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${obj["City"]},${obj["State"]},${obj["Country"]}&appid=${process.env.REACT_APP_OPEN_WEATHER_KEY}`).then(
+            Axios.get(`https://api.openweathermap.org/geo/1.0/direct?q=${obj["City"]},${obj["State"]},${obj["Country"]}&appid=${process.env.REACT_APP_OPEN_WEATHER_KEY}`).then(
                 (response) => {
                     return Axios.get(`https://api.openweathermap.org/data/2.5/onecall?lat=${response["data"][0]["lat"]}&lon=${response["data"][0]["lon"]}&appid=${process.env.REACT_APP_OPEN_WEATHER_KEY}`).then(
                         (response) => {
