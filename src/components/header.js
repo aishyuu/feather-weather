@@ -4,7 +4,6 @@ import React from 'react'
 import { Link } from "react-router-dom"
 
 export default function Header({darkMode, setDarkMode}) {
-    console.log(darkMode)
     function handleDarkMode() {
         setDarkMode(prev => !prev)
         if (darkMode === false) {

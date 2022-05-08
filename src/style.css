@@ -113,3 +113,91 @@ body {
 .try--now--button {
     width:100%;
 }
+
+.weather--content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.placesAutocomplete {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.city {
+    width: 73%;
+    order: 0;
+}
+
+.submit--button {
+    order: 1;
+}
+
+.nothing {
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+    z-index: -1;
+}
+
+.card--main {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body {
+    height: 300px;
+}
+
+.dark--weather {
+    color: white;
+    background-color: rgb(97, 97, 97);
+}
+
+.weather--box {
+    overflow-x: scroll;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidescroll--box {
+    text-align: center;
+}
+.main--weather {
+    text-align: center;
+}
+
+.daily--weather {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.daily--weather--formatting {
+    display: flex;
+    flex-direction: row;
+}
+
+.daily--day {
+    order: 1;
+    margin-right: auto;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.temperature--daily {
+    order: 2;
+}
+
+.weather--image {
+    order: 3;
+    width: 60px;
+}
+
+.forecast--complete {
+    width: 100%;
+}

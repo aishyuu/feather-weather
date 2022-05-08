@@ -11,7 +11,7 @@ export default function App() {
             <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
             <Routes>
                 <Route path="/feather-weather" element={<HomeContent darkMode={darkMode}/>} />
-                <Route path="/weather" element={<Weather />} />
+                <Route path="/weather" element={<Weather darkMode={darkMode}/>} />
             </Routes>
         </BrowserRouter>
     )
